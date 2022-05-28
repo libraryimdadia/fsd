@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    background-color: gray;
+    color: white;
+    font-family: 'Jameel Noori Nastaleeq', sans-serif;
+    align-items: center;
+    text-align: center;
+    size: 24px;
+    justify-content: center;
+    top: 0;
+    height: 40px;
+    position: sticky;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.5) url(./img/IMG-20220525-WA0034.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    border-radius: 4px;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 50;
+    margin: auto;
+    height: 35%;
+}
+
+.firstSection {
+    height: 70vh;
+}
+
+#teacherPics {
+    display: flex;
+    align-items: center;
+}
+
+#UsamaPics {
+    display: contents;
+    align-items: center;
+}
+
+.coursePics{
+    border-radius: 150px;
+    margin-right: 3px;
+    max-width: 500px;
+}
+
+.usmPics{
+    border-radius: 500px;
+    margin-right: 3px;
+    max-width: 300px;
+}
+
+.zahidPic {
+    border-radius: 150px;
+    margin-right: 3px;
+    max-width: 300px;
+}
+
+.picContrl {
+    max-width: 1000px;
+}
+
+@media only screen and (max-width: 400px) {
+    .background {
+        background: rgba(0, 0, 0, 0.5) url(./img/bookimg.jpg);
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+
+    #teacherPics {
+        display: contents;
+    }
+
+    .picContrl {
+        max-width: 300px;
+    }
+
+    .coursePics{
+    max-width: 300px;
+    }
+
+    .firstSection {
+        height: 50vh;
+    }
+
+}
